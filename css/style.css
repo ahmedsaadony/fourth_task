@@ -1,0 +1,305 @@
+/* style of body */
+body{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+    background: #7DC0C8;
+    background: linear-gradient(to bottom, #7DC0C8 0%, #7DC0C8 50%, #B793C3 100%);
+}
+/* style of total section */
+.total{
+    width: 99%;
+    border: 1px solid green;
+    background-color: white;
+}
+/* start style of navbar */
+
+.nav{
+    width:100%;
+    border-bottom: 1px solid gray;
+
+   
+
+}
+.nav .all{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.nav .all .logo{
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 9px 10px ;
+    font-size: 20px;
+    border-right: 1px solid gray;
+    height: 100%;
+    
+}
+.nav .all .logo .te{
+    margin-top: -20px;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav .all .logo .le{
+    color: green;
+    margin-top: 10px;
+}
+.nav .all .logo .te h1 span{
+color: #808080ad;
+
+}
+.nav .all .center{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 10px;
+    border-right: 1px solid gray;
+
+}
+.nav .all .center .le i{
+    color: grey;
+    margin-right: 3px;
+    margin-top: 15px;
+
+
+
+}
+.nav .all .center .le input{
+    border: none;
+}
+.nav .all .center .le input::placeholder{
+    font-size: 20px;
+    margin-top: 15px;
+
+}
+.nav .all .center .re{
+margin-top: 15px;
+}
+
+.nav .all .center .re a{
+text-decoration: none;
+color: black;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+.nav .all .bell{
+padding: 5px 10px;
+border-right: 1px solid grey;
+}
+.nav .all .bell i{
+    margin-top: 15px;
+
+    font-size: 25px;
+    text-align: center;
+
+}
+.nav .all .btns{
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 5px;
+}
+.nav .all .btns button{
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    margin: 10px;
+    border: none;
+
+    padding: 20px 10px;
+
+}
+.nav .all .btns button i{
+    margin-top: -3px;
+    display: inline;
+    margin-right: 7px;
+}
+.nav .all .btns button span{
+    margin-top: -3px;
+}
+.nav .all .btns .btn1{
+    color: green;
+    background-color: #e5f1ed;
+}
+.nav .all .btns .btn2{
+    color: white;
+    background-color: green;
+}
+/* end style of navbar section */
+/* start style of second section */
+
+.second{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+
+}
+/* start style of left section */
+.second .left{
+    width: 17%;
+    border-right: 1px solid gray;
+   
+}
+.second .left .d1{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+}
+.second .left .d1 img{
+    width: 30%;
+    height: 50px;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-top: 14px;
+   
+}
+.second .left .d1 h1{
+    width: 19%;
+}
+.second .left .d1 .fa-angle-down{
+    margin-top: 23px;
+    margin-left: 44px;
+
+}
+.second .left .d1 p{
+    margin-top: -16px;
+    margin-left: 53px;
+    color: gray;
+}
+.second .left .d2{
+    margin-top: 10px;
+    font-size: 20px;
+    width: 97%;
+    padding-left:5px;
+    padding: 10px 0px 10px 5px;
+    margin-bottom: 0px;
+
+}
+.second .left .x{ 
+    color:gray ;
+    margin-top: -2px;
+
+
+
+}
+.second .left .but{
+    margin-top: 50px;
+    width: 90%;
+    margin: 277px auto 10px ;
+}
+.second .left .but button{
+    border: none ;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    
+    width: 100%;
+}
+
+.second .left .x:hover{
+    color: green;
+    background-color: #E5F1ED;   
+}
+.second .left .d2 i{
+    margin-right: 5px;
+    margin-left: 10px;
+
+}
+.second .left .active{
+    color: green;
+ background-color: #E5F1ED;   
+}
+/* end style of left section */
+/* start style of right section */
+.second .right{
+    width: 80%;
+}
+.second .right .all{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.second .right .all .inner{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+
+}
+
+.second .right .all .inner .righ i{
+    font-size: 20px;
+    color: green;
+    margin-top: 25px;
+}
+.second .right .all .bg{
+    width: 90%;
+    height: 250px;
+    background-image: url(../imgs/t1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 15px;
+   
+}
+.second .right .all .bg h1 ,.second .right .all .bg p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+}
+.second .right .all .std{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.second .right .all .std .div1{
+    width: 23%;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 1px gray;
+    position: relative;
+    z-index: 1;
+}
+.second .right .all .std .div1 img{
+    width: 100%;
+    height: 90px;
+}
+.second .right .all .std .div1 h1,.second .right .all .std .div1 p{
+    font-size: 15px;
+    margin-left: 10px;
+}
+.second .right .all .std .div1 p{
+    color: gray;
+}
+.second .right .all .std .div1 .fa{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: white;
+    color: green;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 16px;
+    margin-top: -5px;
+    position: absolute;
+    top: 79px;
+    left: 116px;
+    z-index: 1234;
+    box-shadow: 1px 1px 1px gray;
+}
+.second .right .all .std .div1 .fa i{
+    margin-top: 6px;
+}
+/* end style of right section */
+
+
